@@ -1,0 +1,130 @@
+* {
+    color: #2d3c49;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 970px;
+}
+
+#header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #7d97ad;
+}
+
+#header_img {
+    margin-top: 10px;
+}
+
+#header_text {
+    text-align: right;
+}
+
+#job_title {
+    margin-top: 0;
+}
+
+.app {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #8ba9b9;
+}
+
+.modal-title {
+    font-weight: bolder;
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    #job_title {
+        font-size: 15px;
+    }
+
+    .col-md-4 {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+    }
+
+    .modal-body {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 551px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #job_title {
+        font-size: 23px;
+    }
+
+    .col-md-4 {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .modal-title {
+        font-size: 25px;
+    }
+
+    .modal-body {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 700px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .col-md-4 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        text-align: center;
+    }
+}
